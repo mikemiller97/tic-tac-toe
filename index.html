@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <br>
+    <form action="/action_page.php" class="formContainer">
+        <label for="p1">
+            <strong>Player One:</strong>
+        </label>
+        <input type="text" id="p1" name="p1" placeholder="Name">
+
+        <label for="p2">
+            <strong>Player Two:</strong>
+        </label>
+        <input type="text" id="p2" name="p2" placeholder="Name">
+
+        <button type="button" id="btn">Submit</button>
+    </form>
+        <button type="button" id="reset">Reset</button>
+    <br>
+    <div class="board">
+        <ul>
+            <li class="square" id="square1"></li>
+            <li class="square" id="square2"></li>
+            <li class="square" id="square3"></li>
+            <li class="square" id="square4"></li>
+            <li class="square" id="square5"></li>
+            <li class="square" id="square6"></li>
+            <li class="square" id="square7"></li>
+            <li class="square" id="square8"></li>
+            <li class="square" id="square9"></li>
+        </ul>
+    </div>
+    <br>
+    <p class="result"></p>
+</body>
+</html>
